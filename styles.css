@@ -7,10 +7,23 @@ h1{
 
 #login{
    font-size: 19px; 
-   border: 7px black dashed ;
+   border: 7px black dashed;
+   background-color: lightskyblue;
 }
 p{
     font-style: italic ;
     font-size: 20px;
     color: darkolivegreen;
+}
+.imageone{
+  width:100% ;
+}
+.videoone{
+    padding-left: 200px;
+    width: 50%;
+}
+#media>h2{
+    padding-left: 43%;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-style:oblique ;
 }
