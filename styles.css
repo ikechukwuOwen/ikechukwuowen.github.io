@@ -17,6 +17,9 @@ p{
 }
 .imageone{
   width:100% ;
+  border: 5px inset black;
+  border-style: dashed dotted;
+  border-radius: 50px / 100px;
 }
 .videoone{
     padding-left: 200px;
