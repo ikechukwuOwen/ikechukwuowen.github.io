@@ -1,5 +1,5 @@
 body{
-    background-image: ;
+    background-image:url("media/bet.jpg");
 }
 h1{
     font-size: 50px;
@@ -11,12 +11,12 @@ h1{
 #login{
    font-size: 19px; 
    border: 7px rgb(10, 10, 250) dashed;
-   background-color: rgba(90, 180, 255, 0.4);
+   background-color: rgba(90, 180, 255, 0.7);
 }
 p{
     font-style: italic ;
     font-size: 20px;
-    color: darkolivegreen;
+    color: rgb(200, 50, 18);
 }
 .imageone{
   width:100% ;
@@ -33,4 +33,7 @@ p{
     padding-left: 43%;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     font-style:oblique ;
+}
+#title{
+    color: aqua;
 }
