@@ -1,3 +1,6 @@
+body{
+    background-image: url("/workspaces/iks/Screenshot 2023-11-19 131106.png") ;
+}
 h1{
     font-size: 50px;
 }
@@ -7,8 +10,8 @@ h1{
 
 #login{
    font-size: 19px; 
-   border: 7px black dashed;
-   background-color: lightskyblue;
+   border: 7px rgb(10, 10, 250) dashed;
+   background-color: rgba(90, 180, 255, 0.4);
 }
 p{
     font-style: italic ;
@@ -24,6 +27,7 @@ p{
 .videoone{
     padding-left: 200px;
     width: 50%;
+    margin:30px 0px;
 }
 #media>h2{
     padding-left: 43%;
