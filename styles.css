@@ -1,5 +1,6 @@
-html{
-    background-image:url() ;
+body{
+    background-color:hsl(360, 70%, 81%) ;   
+   
 }
 h1{
     font-size: 50px;
