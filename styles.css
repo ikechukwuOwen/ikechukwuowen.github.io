@@ -38,3 +38,7 @@ header{
 footer{
     font-family: Georgia;
 }
+#footer{
+    background-color:  rgba(140, 140, 140, 0.5);
+    padding: 10px;
+}
