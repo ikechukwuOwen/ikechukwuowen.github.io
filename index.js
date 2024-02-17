@@ -41,15 +41,18 @@ if( temp >= 100) {
 weather(170);
 
 
-var num = (0);
+var num = 0;
 
-while (num > 10) {
-    if(num > 10){
+while (num <= 10){
+    if(num >= 10){
         console.log("correct the number", num, "is greater than 10");
     }
     else{
         console.log("wrong answer the number", num, "is not grater than 10");
     }
-    num++;
+    num += 2; 
 }
 
+for( var r = 10; r <= 100; r += 10){
+    console.log(r);
+}
