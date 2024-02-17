@@ -39,3 +39,17 @@ if( temp >= 100) {
 
 }
 weather(170);
+
+
+var num = (0);
+
+while (num > 10) {
+    if(num > 10){
+        console.log("correct the number", num, "is greater than 10");
+    }
+    else{
+        console.log("wrong answer the number", num, "is not grater than 10");
+    }
+    num++;
+}
+
