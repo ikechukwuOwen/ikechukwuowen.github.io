@@ -11,4 +11,9 @@ console.log(teams[3]);
 
 var a = teams.toString();
 console.log(a);
+
+var b = teams.length;
+console.log(b);
     
+teams.push("liver");
+console.log(teams[4]);
