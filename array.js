@@ -8,4 +8,7 @@ var teams = [
 console.log(teams[1][0]);
 console.log(teams[0][1]);
 console.log(teams[3]);
+
+var a = teams.toString();
+console.log(a);
     
