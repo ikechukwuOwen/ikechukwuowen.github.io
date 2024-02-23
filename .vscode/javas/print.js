@@ -17,4 +17,13 @@ var print = function( rooms){
 }
 
 
-print(room);
+console.log(room[4][1], room[5][1]);
+
+var c = room.length;
+console.log(c);
+
+room.push("bush", "push", 77);
+console.log(room[6][0], room[6][1], room[6][2]);
+ 
+var d = room.toString();
+console.log(d);

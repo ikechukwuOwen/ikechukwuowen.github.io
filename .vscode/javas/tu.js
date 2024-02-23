@@ -13,5 +13,5 @@ var students = [
     }
   }
 
-console.log(students[0][1] + student[1][1]);
+console.log(students[0][0], students[1][0]);
   
