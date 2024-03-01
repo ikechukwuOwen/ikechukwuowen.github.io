@@ -18,5 +18,5 @@ var lool = [
      }
    }
 ]
-
+console.log (lool[0]["grade"]);
 
