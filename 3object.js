@@ -1,4 +1,4 @@
-var scores = [
+var lool = [
     {
        name: "ikechukwu owen",
        age : 19,
@@ -19,4 +19,4 @@ var scores = [
    }
 ]
 
-console.log(scores[0]);
+
