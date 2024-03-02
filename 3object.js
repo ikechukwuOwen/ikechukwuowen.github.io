@@ -18,5 +18,5 @@ var lol = [
      }
    }
 ]
-console.log (lol[0]["grade"]["Maths"]);
+console.log (lol[1]["grade"]["Maths"]);
 
