@@ -4,14 +4,12 @@
     // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
     "version": "0.2.0",
     "configurations": [
+        
         {
-            "name": "Attach by Process ID",
-            "processId": "${command:PickProcess}",
-            "request": "attach",
-            "skipFiles": [
-                "<node_internals>/**"
-            ],
-            "type": "node"
+            "command": "npm start",
+            "name": "Run npm start",
+            "request": "launch",
+            "type": "node-terminal"
         },
         {
             "type": "node",
@@ -20,7 +18,7 @@
             "skipFiles": [
                 "<node_internals>/**"
             ],
-            "program": "${workspaceFolder}/2object.js"
+            "program": "${workspaceFolder}/3object.js"
         }
     ]
 }
