@@ -8,9 +8,9 @@ var print = function(ink){
         for (d = 0; d < b.length; d++){
             console.log(b[d]);        
         }
-        a[c] = b[c][d];
+        
     }
-    return a;
+    
     
 }
 
