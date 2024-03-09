@@ -1,11 +1,13 @@
-@import url('https://fonts.googleapis.com/css2?family=Merienda:wght@300..900&display=swap');
 
-* {
-  background-image:url("media/bet.jpg");
-  font-family: "Merienda", cursive;
-  font-optical-sizing: auto;
-  font-weight: 900;
-  font-style: normal;
 
-};
+ *{
+  background-image : url("media\hot.png");
+}
 
+h1 {
+  color: red;
+}
+
+p {
+  font-size: 16px;
+}
