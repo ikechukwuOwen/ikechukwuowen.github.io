@@ -1,8 +1,11 @@
-@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400..900&display=swap');
 
-html{
-  font-family: "Pacifico", cursive;
-  font-weight: 400;
+*{ 
+  background-image:url("/media/bet.jpg");
+}
+* {
+  font-family: "Orbitron", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: weight;
   font-style: normal;
-
-};
+}
