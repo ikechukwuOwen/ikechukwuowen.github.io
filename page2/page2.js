@@ -1,6 +1,16 @@
 var h1 = document.querySelector('h1');
-    h1.innerHTML = "Information";
+    h1.innerHTML = "Information Page";
 
-var h2 = document.querySelector('h2');
-console.log( h2.id);
+var foot = document.getElementById('footer');
+for (var i = 0; i < foot.children.length; i++) {
+    foot.children[i].style.color = "red";
+}
+
+var nee = document.createElement('p');
+nee.innerHTML = "Supervised by: Dr. ik";
+
+var note = document.getElementsByClassName('note')[0];
+note.appendChild(nee);
+
+
 
