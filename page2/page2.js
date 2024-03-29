@@ -1,5 +1,5 @@
 var h1 = document.querySelector('h1');
-    h1.innerHTML = "Information Page";
+    h1.innerHTML = "Insert information";
 
 var foot = document.getElementById('footer');
 for (var i = 0; i < foot.children.length; i++) {
