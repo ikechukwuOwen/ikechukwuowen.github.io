@@ -1,9 +1,9 @@
 var h1 = document.querySelector('h1');
     h1.innerHTML = "Insert information";
 
-var foot = document.getElementById('footer');
-for (var i = 0; i < foot.children.length; i++) {
-    foot.children[i].style.color = "red";
+var foot = document.querySelectorAll('#footer > h4 , time ');
+for (var i = 0; i < foot.length; i++) {
+    foot[i].style.color = "red";
 }
 
 var nee = document.createElement('p');
@@ -13,4 +13,5 @@ var note = document.getElementsByClassName('note')[0];
 note.appendChild(nee);
 
 
-
+var imput = document.querySelector('input[type="text"]');
+imput.setAttribute('placeholder', "whats your name?");
