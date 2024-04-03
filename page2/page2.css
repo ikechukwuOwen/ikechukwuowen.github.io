@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400..900&display=swap');
 
-*{ 
+body{ 
   background-image:url("/media/Paid.jpg");
 
 }
@@ -10,4 +10,8 @@
   font-weight: weight;
   font-style: normal;
   color: white  ;
+}
+
+#info {
+  background-color: rgba(0, 0, 139, 0.8);
 }

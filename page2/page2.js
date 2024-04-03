@@ -13,5 +13,7 @@ var note = document.getElementsByClassName('note')[0];
 note.appendChild(nee);
 
 
-var imput = document.querySelector('input[type="text"]');
-imput.setAttribute('placeholder', "whats your name?");
+var imput = document.querySelectorAll('input[type="text"]');
+for(var i = 0; i < imput.length; i++){
+imput[i].setAttribute('placeholder', "whats your name?");
+}
