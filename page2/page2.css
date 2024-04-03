@@ -1,10 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400..900&display=swap');
 
-body{ 
+html{ 
   background-image:url("/media/Paid.jpg");
 
 }
-* {
+html{
   font-family: "Orbitron", sans-serif;
   font-optical-sizing: auto;
   font-weight: weight;
@@ -14,4 +14,21 @@ body{
 
 #info {
   background-color: rgba(0, 0, 139, 0.8);
+  
+}
+
+button {
+  background-color: rgba(149, 0, 0, 0.8);
+  color: white;
+  padding: 14px 20px;
+  margin: 8px ;
+  border: none;
+  cursor: pointer;
+  width: 50%;
+}
+
+button:hover{
+  color: rgba(0, 139, 0, 0.8);
+background-color: white;
+
 }
