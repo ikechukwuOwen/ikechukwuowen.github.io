@@ -4,7 +4,7 @@
     add.onclick = function() {
         var put = document.getElementById('newmovie').value;
         
-        if (document.getElementById('newmovie').value == '') {
+        if (put == '') {
             alert('Please enter a movie name');
             return;
         }
