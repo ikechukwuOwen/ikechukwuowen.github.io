@@ -1,5 +1,5 @@
  var add = document.getElementById('sub');
- var list = document.getElementById('list');
+ var list = document.getElementById('ollist');
 
     add.onclick = function() {
         if (document.getElementById('newmovie').value == '') {
