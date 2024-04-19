@@ -1,18 +1,19 @@
  var add = document.getElementById('sub');
- var list = document.getElementById('ollist');
+var list = document.getElementById('list');
 
-    add.onclick = function() {
-        var put = document.getElementById('newmovie').value;
+add.onclick = function() {
+    var put = document.getElementById('newMovie').value;
+    
+    if (put !== '') {
         
-        if (put == '') {
-            alert('Please enter a movie name');
-            return;
-        }
-        var li = document.createElement('li');
-        li.innerHTML = put;
-        list.appendChild(li);
-        document.getElementById('newmovie').value = '';
-
+    var li = document.createElement('li');
+    li.innerHTML = put;
+    list.appendChild(li);
+    document.getElementById('newMovie').value = '';
     }
+
+}
+
+
 
     
