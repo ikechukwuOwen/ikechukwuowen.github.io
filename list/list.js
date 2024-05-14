@@ -33,3 +33,12 @@
  next.onclick = function() {
      img.setAttribute('src', images[incrementIndex(currentIndex)]);
  }
+ var decrementIndex = function() {
+     currentIndex = currentIndex - 1;
+     if (currentIndex < 0) { currentIndex = images.length - 1 }
+     return currentIndex;
+ }
+ var prev = document.getElementById('prev');
+ prev.onclick = function() {
+     img.setAttribute('src', images[decrementIndex(currentIndex)]);
+ }
