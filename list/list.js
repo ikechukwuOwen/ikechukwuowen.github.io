@@ -42,3 +42,8 @@
  prev.onclick = function() {
      img.setAttribute('src', images[decrementIndex(currentIndex)]);
  }
+ var got = createElement('li');
+ got.innerHTML =
+     '<input type = "checkbox">'
+ '<label > Learn CSS < /label>'
+ '< button class = "delete" > Delete < /button> ';
