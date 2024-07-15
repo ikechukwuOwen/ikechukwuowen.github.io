@@ -3,6 +3,7 @@
 
 <head>
     <title>Test site</title>
+    <link href="test.css" rel="stylesheet" type="text/css">
 </head>
 
 <body>
@@ -13,8 +14,8 @@
         </hgroup>
         <nav>
             <ul type="circle">
-                <li><a href="index.php">Home</a></li>
-                <li><a href="about.php">About</a></li>
+                <li><a href="../index.html">Home</a></li>
+                <li><a href="../page2/page2.html">About</a></li>
                 <li><a href="#contact">Contact</a></li>
             </ul>
     </header>
@@ -51,12 +52,13 @@
             <td>d4</td>
         </tr>
     </table>
-    <form>
-        <h2>Come Home</h2>
-        <label for="name">Name:</label>
-        <input type="text" id="name" name="name">
-        <label for="cass">Class:</label>
-        <select id="cass">
+    <div id="form">
+        <form>
+            <h2>Come Home</h2>
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name">
+            <label for="cass">Class:</label>
+            <select id="cass">
             <optgroup label="Junior">
             <option>JS1</option>
             <option>JS2</option>
@@ -68,41 +70,41 @@
             <option>SS3</option>
             </optgroup>
         </select>
-        <label for="date">Date</label>
-        <input type="date" id="date" name="date">
-        <label for="mail">E-mail</label>
-        <input type="email" id="mail" name="mail">
-        <h3>Subjects that you Offer</h3>
-        <label for="maths">Maths</label>
-        <input type="checkbox" id="maths" name="maths">
-        <label for="english">English</label>
-        <input type="checkbox" id="english" name="english">
-        <label for="physics">Physics</label>
-        <input type="checkbox" id="physics" name="physics">
-        <label for="chemistry">Chemistry</label>
-        <input type="checkbox" id="chemistry" name="chemistry">
-        <label for="biology">Biology</label>
-        <input type="checkbox" id="biology" name="biology">
-        <label for="agric">Agricultural Science</label>
-        <input type="checkbox" id="agric" name="agric">
-        <label for="french">French</label>
-        <input type="checkbox" id="french" name="french">
-        <label for="spanish">Spanish</label>
-        <input type="checkbox" id="spanish" name="spanish">
-        <h3>More information</h3>
-        <label for="info"></label>
-        <textarea id="info" id="info" cols="30" rows="10"></textarea><br>
-        <button type="submit">Submit</button>
-        <footer>
-            <h3 id="contact ">Contact info</h3>
-            <p>Phone:<a href="tel:123-456-7890 ">123-456-7890</a> </p>
-            <p>Email:
-                <a href="mailto:ezunuowen@gmail.com ">ezunuowen@gmail.com</a>
-            </p>
-            <p>&copy; 2013 Test site</p>
-        </footer>
+            <label for="date">Date</label>
+            <input type="date" id="date" name="date">
+            <label for="mail">E-mail</label>
+            <input type="email" id="mail" name="mail">
+            <h3>Subjects that you Offer</h3>
+            <label for="maths">Maths</label>
+            <input type="checkbox" id="maths" name="maths">
+            <label for="english">English</label>
+            <input type="checkbox" id="english" name="english">
+            <label for="physics">Physics</label>
+            <input type="checkbox" id="physics" name="physics">
+            <label for="chemistry">Chemistry</label>
+            <input type="checkbox" id="chemistry" name="chemistry">
+            <label for="biology">Biology</label>
+            <input type="checkbox" id="biology" name="biology">
+            <label for="agric">Agricultural Science</label>
+            <input type="checkbox" id="agric" name="agric">
+            <label for="french">French</label>
+            <input type="checkbox" id="french" name="french">
+            <label for="spanish">Spanish</label>
+            <input type="checkbox" id="spanish" name="spanish">
+            <h3>More information</h3>
+            <label for="info"></label>
+            <textarea id="info" id="info" cols="30" rows="10"></textarea><br>
+            <button type="submit">Submit</button>
+        </form>
+    </div>
+    <footer>
+        <h3 id="contact">Contact info</h3>
+        <p>Phone:<a href="tel:123-456-7890 ">123-456-7890</a> </p>
+        <p>Email:
+            <a href="mailto:ezunuowen@gmail.com ">ezunuowen@gmail.com</a>
+        </p>
+        <p>&copy; 2013 Test site</p>
+    </footer>
 </body>
-
-</html>
 
 </html>
